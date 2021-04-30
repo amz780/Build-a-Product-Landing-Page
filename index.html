@@ -7,51 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Product landing page</title>
     <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            
-        }
-        body{
-            background-color: #eeeeee;
-            color: black;
-            display: flex;
-            justify-content: center;
-            
-        }
-        #header{
-            position: fixed;
-            top: 0;
-            min-height: 80px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color:inherit;
-            padding: 20px 20px;
-        }
-        #header #logo img{
-            width: 300px;
-            height: auto;
-            margin-right: 30vw;
-        }
-        nav#nav-bar>ul {
-            display: flex;
-            justify-content: flex-end;
-        }
-        nav li {
-            margin-left: 25px;
-            list-style: none;
-
-        }
-        nav li a {
-            text-decoration: none;
-            color: inherit;
-        }
+        
+        
         
     </style>
 </head>
 <body>
+<div class="container">
    <header id="header">
        <div id="logo">
 
@@ -67,9 +29,8 @@
            </ul>
         </nav>
    </header> 
-   <main>
 
-   <section id="one">
+   <section id="form-page">
         <h2>Handcrafted, home-made masterpieces</h2>
 
         <form action="">
@@ -78,7 +39,7 @@
         </form>
    </section>
 
-<section id="two">
+<section id="services">
 
     <div class="row">
 
@@ -111,11 +72,11 @@
     </div>
 
 </section>
-<section id="three">
+<section id="video">
     <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" frameborder="0" id="video"></iframe>
 </section>
 
-<section id="for">
+<section id="our-products">
     <div class="product">
         <h2>tenor trombone</h2>
         <h3>$600</h3>
@@ -153,8 +114,7 @@
     </div>
 </section>
 
-   </main>
-   <footer>
+<footer>
     <ul>
         <li>Privacy</li>
         <li>Terms</li>
@@ -162,5 +122,6 @@
     </ul>
     <p>Copyright 2016, Original Trombones</p>
    </footer>
+   </div>
 </body>
 </html>
